@@ -19,6 +19,7 @@ PC 상태 확인, 음악 재생, 오디오 제어, 앱 실행을 한 화면에�
 | File | 용도 / Purpose |
 |---|---|
 | `PcDashboard-0.9.25.apk` | Android 대시보드 앱 / Android dashboard |
+| `Toss-Printer-Service-1.5.apk` | 터미널 인쇄용 선택 설치 / Optional terminal printer service |
 | `PcDashboard-PC-0.9.6.zip` | Windows PC 프로그램·설치 안내 / Windows companion app and instructions |
 
 **Windows ZIP은 전체를 압축 해제한 뒤 `Setup.exe`를 실행하세요.**
@@ -63,7 +64,7 @@ Extract the entire Windows ZIP before running `Setup.exe`.
 
 Other Android devices have not been fully verified. Printer support depends on compatible hardware and a separate printer service.
 
-다른 Android 기기는 충분히 검증하지 않았습니다. 인쇄 기능은 호환 프린터와 별도의 프린터 서비스가 필요하며, 해당 서비스 앱은 이 배포에 포함하지 않습니다.
+다른 Android 기기는 충분히 검증하지 않았습니다. 인쇄 기능은 호환 프린터와 별도의 프린터 서비스가 필요하며, 서비스 APK는 Releases에 별도로 첨부했습니다.
 
 ## Setup / 설치 및 연결
 
@@ -90,6 +91,14 @@ CPU 온도 등 일부 센서에는 관리자 권한과 호환 드라이버가 �
 7. Select Front or Terminal under **Settings → Device mode** on Android.
 
 Some sensors, including CPU temperatures, may require administrator privileges and compatible drivers. Check the PC app's preparation and diagnostic tools when needed.
+
+## Printer service / 프린터 서비스
+
+터미널에서 인쇄하려면 Releases의 `Toss-Printer-Service-1.5.apk`를 터미널에 설치하고, 대시보드에서 터미널 모드와 프린터 버튼을 켜세요. 프론트에는 필요 없으며, 이미 출력된다면 재설치하지 않아도 됩니다.
+
+커뮤니티 유저가 제작한 프린터 서비스 앱 원본을 별도로 제공합니다.
+
+For printing, install `Toss-Printer-Service-1.5.apk` from Releases on your compatible terminal, then enable Terminal mode and printer shortcuts. Front devices do not need it. Skip installation if printing already works. This is a community-made service, provided as an unchanged APK separately from PC Dashboard.
 
 ## Feedback / 피드백
 
