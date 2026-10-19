@@ -26,6 +26,14 @@ PC 상태 확인, 음악 재생, 오디오 제어, 앱 실행을 한 화면에�
 
 Extract the entire Windows ZIP before running `Setup.exe`.
 
+## Changelog / 변경 이력
+
+[→ 전체 버전 변경 이력 / Full changelog](CHANGELOG.md)
+
+Android 0.6.0부터 0.9.25까지의 개발 이력과 Windows 버전별 변경점을 정리했습니다.
+
+Development history from Android 0.6.0 to 0.9.25, with a separate Windows changelog.
+
 ## Features / 주요 기능
 
 - **PC monitoring** — CPU/GPU usage and temperatures  
